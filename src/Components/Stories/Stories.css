@@ -1,0 +1,123 @@
+.story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+  font-size: 22px;
+  gap: 20px;
+}
+.story img {
+  width: 800px;
+}
+.story .story-one {
+  background-image: url("/public/assets/imgs/img-1.jpg");
+  width: 100%;
+  justify-content: space-between;
+  font-size: 28px;
+  padding: 0;
+  margin: 0;
+}
+
+.story .story-one p {
+  width: 50%;
+  color: white;
+  margin: auto;
+}
+
+.story .story-four,
+.story .story-seven,
+.story .story-nine,
+.story .story-twelve {
+  flex-direction: column;
+}
+
+.story .story-one > *,
+.story .story-two > *,
+.story .story-three > *,
+.story .story-five > *,
+.story .story-six > *,
+.story .story-eight > *,
+.story .story-ten > *,
+.story .story-eleven > * {
+  padding: 20px 80px;
+}
+.story .story-four > *,
+.story .story-seven > *,
+.story .story-nine > *,
+.story .story-twelve > * {
+  padding: 10px;
+}
+
+.video-story {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+.video-text {
+  width: 600px;
+  height: 400px;
+  font-size: 24px;
+  position: absolute;
+  display: flex;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.146);
+}
+
+.ads-holder {
+  padding: 80px;
+  padding-bottom: 89px;
+}
+
+@media (max-width: 991px) {
+  .story {
+    flex-direction: column;
+    font-size: 16px;
+  }
+  .story img {
+    width: 380px;
+    padding: 10px;
+  }
+  .story .story-one {
+    font-size: 18px;
+  }
+
+  .story .story-one p {
+    width: 100%;
+  }
+  .story .story-one > *,
+  .story .story-two > *,
+  .story .story-three > *,
+  .story .story-five > *,
+  .story .story-six > *,
+  .story .story-eight > *,
+  .story .story-ten > *,
+  .story .story-eleven > * {
+    padding: 20px 20px;
+  }
+}
+@media (max-width: 380px) {
+  .story {
+    flex-direction: column;
+    font-size: 10px;
+  }
+  .story img {
+    width: 340px;
+    padding: 5px;
+  }
+
+  .story .story-one {
+    font-size: 14px;
+  }
+
+  .story .story-one p {
+    width: 100%;
+  }
+}
