@@ -9,7 +9,7 @@ export const storyOne = () => {
         elementum. Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare. Mollis elit sodales taciti
         duis praesent id. Consequat urna vitae morbi nunc congue."
       </p>
-      <div className="swipe-handle">TAP</div>
+      {/* <div className="swipe-handle">TAP</div> */}
     </div>
   );
 };
