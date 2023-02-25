@@ -100,8 +100,7 @@ export const storyFour = () => {
         />
       </video>
       <p className="video-text">
-        "Lorem ipsum consectetuer odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis varius;
-        dignissim consectetuer elementum."
+        "Lorem ipsum consectetuer odor amet, consectetuer adipiscing elit. dignissim consectetuer elementum."
       </p>
     </div>
   );

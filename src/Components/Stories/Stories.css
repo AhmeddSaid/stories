@@ -102,6 +102,12 @@
   .story .story-eleven > * {
     padding: 20px 20px;
   }
+  .video-text {
+    width: 340px;
+    height: 300;
+    font-size: 16px;
+
+  }
 }
 @media (max-width: 380px) {
   .story {
